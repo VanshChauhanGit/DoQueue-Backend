@@ -1,0 +1,28 @@
+# Dependencies
+/node_modules
+
+# Environment Variables
+# NEVER commit your environment variables file.
+.env
+
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Testing
+/coverage
+/.nyc_output
+
+# Build/Dist artifacts
+/dist
+/build
+/temp
+
+# Editor/OS Specific Files
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
